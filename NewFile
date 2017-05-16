@@ -4,7 +4,7 @@
 
 int main()
 {
-задание 6
+задани   е 6
     n=strlen(str);
     printf("simvolov: %d\n", n);
 
