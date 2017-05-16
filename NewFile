@@ -5,10 +5,7 @@
 int main()
 {
 задани   е 6
-    n=strlen(str);
-    printf("simvolov: %d\n", n);
-
-    if (n>20)
+       if (n>20)
         {printf("ne bolshe 20 simvolov\n");}
     else
     {
