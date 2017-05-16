@@ -4,11 +4,7 @@
 
 int main()
 {
-    int n;
-    int j;
-    char str[100];
-    printf("vvedite stroky\n");
-    gets(str);
+задание 6
     n=strlen(str);
     printf("simvolov: %d\n", n);
 
