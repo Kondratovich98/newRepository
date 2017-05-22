@@ -2,11 +2,6 @@
 #include <stdlib.h>
 //задание 5
 
-int main()
-{
-задани   е 6
-       if (n>20)
-        {printf("ne bolshe 20 simvolov\n");}
     else
     {
 
