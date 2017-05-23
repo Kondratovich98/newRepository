@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+    int n;
+    int j;
+    char str[100];
+    printf("vvedite stroky\n");
+    gets(str);
+    n=strlen(str);
+    printf("simvolov: %d\n", n);
+
+    if (n>20)
+        {printf("ne bolshe 20 simvolov\n");}
+    else
+    {
+
+        int i = 0;
+        while(*(str+i) != '\0')
+            {
+                if ( (*(str+i) == ' ') && (*(str+i+1) == ' ')) 	// два подряд идущих пробела
+                {
+                    for (j=i; *(str+j)!='\0'; j++)
+                    *(str+j) = *(str+j+1);
+
+                }
+                else i++;
+
+            }
+
+        if (*(str)==' ')
+            {
+
+                for (i=0; *(str+i) != '\0'; i++)
+                    *(str+i) = *(str+i+1);
+            }
+
+        printf("%s", str);
+
+    }
+    return 0;
+}
