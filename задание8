@@ -4,8 +4,7 @@
 
 int main()
 {
-    int n;
-    int j;
+   
     char str[100];
     printf("vvedite stroky\n");
     gets(str);
